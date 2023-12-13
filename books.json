@@ -1,0 +1,106 @@
+[
+    {
+      "nome": "Cartas De Um Diabo A seu Aprendiz",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 208,
+      "quantidade_disponivel": 10,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "Cristianismo Puro e Simples",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 288,
+      "quantidade_disponivel": 15,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "O problema do sofrimento",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 160,
+      "quantidade_disponivel": 100,
+      "preco": 39.9,
+      "estoque": true
+    },
+    {
+      "nome": "O grande divorcio",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 150,
+      "quantidade_disponivel": 10,
+      "preco": 49.9,
+      "estoque": true
+    },
+    {
+      "nome": "O problema da dor",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 150,
+      "quantidade_disponivel": 10,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "Anatomia de um luto",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 150,
+      "quantidade_disponivel": 10,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "A ultima noite do mundo",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 150,
+      "quantidade_disponivel": 10,
+      "preco": 49.9,
+      "estoque": true
+    },
+    {
+      "nome": "O regresso do peregrino",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 150,
+      "quantidade_disponivel": 25,
+      "preco": 69.9,
+      "estoque": true
+    },
+    {
+      "nome": "Milagres",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 260,
+      "quantidade_disponivel": 10,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "Os quatro amores",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 200,
+      "quantidade_disponivel": 5,
+      "preco": 59.9,
+      "estoque": true
+    },
+    {
+      "nome": "O assunto do ceu",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 280,
+      "quantidade_disponivel": 15,
+      "preco": 64.9,
+      "estoque": true
+    },
+    {
+      "nome": "Como ser cristao",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 180,
+      "quantidade_disponivel": 30,
+      "preco": 49.9,
+      "estoque": true
+    },
+    {
+      "nome": "Ate que tenhamos rostos",
+      "autor": "C.S. Lewis",
+      "quantidade_pagina": 250,
+      "quantidade_disponivel": 25,
+      "preco": 59.9,
+      "estoque": true
+    }
+  ]

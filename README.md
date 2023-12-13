@@ -1,1 +1,3 @@
 # Projeto_Phyton-2
+
+Este projeto é um gerenciador de dados voltado para armazenamento de livros, permitindo a manipulação de informações relacionadas a diferentes livros, como lista de livros e outros atributos relevantes. O sistema oferece operações básicas de CRUD (Create, Read, Update, Delete) para gerenciar os dados dos livros e, além disso, incorpora funcionalidades estatísticas para análise mais profunda.
