@@ -19,11 +19,6 @@ O projeto foi desenvolvido no módulo 2 (Python_2) do curso de dados da Ada Tech
 - Python
   - Módulos: 'json', 'functools', 'csv', 'statistics'
 
-## Como Usar
-1. Certifique-se de que o arquivo books.json esteja no mesmo diretório do código.
-2. Execute o script Python para interagir com o sistema de gerenciamento de livros.
-3. Use as funções fornecidas para manipular e analisar os dados conforme necessário.
-
 ## Estrutura de Dados
 - JSON (books.json): Armazena as informações dos livros em uma lista de objetos JSON.
 - CSV (estatisticas.csv): Armazena os dados estatísticos gerados pelo sistema.
