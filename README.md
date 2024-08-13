@@ -1,27 +1,32 @@
 # Biblioteca Digital
-O projeto foi desenvolvido no módulo 2 (Python_2) do curso de dados da Ada Tech. O projeto consite em criar um CRUD, com algumas novidades que foram vistas durante o modulo tais como: Gerenciamento de Dados; Criação de um JSO; Reazlização de mapeamento, filtro e redução; Implementação do try-except, raise; Utilização de estátitica básica e armazenar os dados no arquivo CSV.
+O projeto foi desenvolvido no módulo 2 (Python_2) do curso de dados da Ada Tech. O sistema permite a manipulação de dados armazenados em um arquivo JSON e oferece várias funcionalidades, como operações CRUD (Create, Read, Update, Delete), além de cálculos estatísticos relacionados aos preços, estoques e quantidade de páginas dos livros. Os resultados estatísticos podem ser exportados para um arquivo CSV.
 
-## Funcionalidades do Sistema
-### Funções Principais
-- Salvar e Carregar Dados: Permite salvar os dados dos livros em arquivos JSON e CSV e carregá-los quando necessário.
-- Cadastrar Livro: Função para adicionar novos livros ao sistema.
-- Visualizar Livro: Permite visualizar as informações de um livro específico.
-- Atualizar Livro: Função para atualizar as informações de um livro existente.
-- Excluir Livro: Remove um livro do sistema.
-- Listar Livros: Lista todos os livros cadastrados no sistema.
-- Análises Estatísticas: Realiza cálculos estatísticos (média, mediana, moda e desvio padrão) sobre os preços, quantidades em estoque e número de páginas dos livros.
+## Funcionalidades
+- Leitura de dados: O sistema lê uma lista de livros a partir de um arquivo JSON.
+- Exibição de livros: Exibe uma lista com o nome de todos os livros disponíveis, bem como uma lista de livros que estão em estoque.
+- Operações CRUD:
+  - Adiciona um novo livro ao sistema, atualizando o arquivo JSON.
+  - Atualiza as informações de um livro existente.
+  - Remove um livro específico do sistema.
+  - Visualiza as informações detalhadas de um livro específico.
+- Análise de dados:
+  - Calcula o preço médio dos livros.
+  - Calcula valores mínimo e máximo de atributos como preço, número de páginas e quantidade de livros em estoque.
+  - Realiza cálculos estatísticos como média, mediana, moda e desvio padrão para os preços dos livros, quantidade de livros em estoque e quantidade de páginas dos livros.
+- Exportação de dados: Os dados estatísticos gerados podem ser exportados para um arquivo CSV.
 
-### Descrição da Funcionalidade
-Menu Principal:
-- Cadastrar Livro: Incluir informações como nome, autor, quantidade de páginas, quantidade disponível, preço e status de estoque.
-- Visualizar Livro: Visualiza as informações de um livro específico baseado no índice fornecido.
-- Atualizar Livro: Atualiza as informações de um livro existente.
-- Excluir Livro: Remove um livro específico do sistema.
-- Listar Livros: Lista todos os livros cadastrados com suas respectivas informações.
-- Análises Estatísticas: Realiza cálculos estatísticos e salva os resultados em um arquivo CSV.
+## Tecnologias Utilizadas
+- Python
+  - Módulos: 'json', 'functools', 'csv', 'statistics'
 
-## Estrutura do Código
-O código principal está estruturado em diversas funções que permitem a realização das operações descritas. As funções de salvar e carregar dados garantem a persistência das informações entre as execuções do programa.
+## Como Usar
+1. Certifique-se de que o arquivo books.json esteja no mesmo diretório do código.
+2. Execute o script Python para interagir com o sistema de gerenciamento de livros.
+3. Use as funções fornecidas para manipular e analisar os dados conforme necessário.
+
+## Estrutura de Dados
+- JSON (books.json): Armazena as informações dos livros em uma lista de objetos JSON.
+- CSV (estatisticas.csv): Armazena os dados estatísticos gerados pelo sistema.
 
 ## Observações Finais
 A criação desse sistema foi uma solução simples e aplicável em qualquer sistema de gerenciamento de bibliotecas. Qualquer sugestão para melhoria do mesmo será bem-vinda!
